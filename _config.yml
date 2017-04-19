@@ -1,0 +1,26 @@
+# Site settings
+title: Designer Portfolio
+email: mark@thetechguysblog.com
+description: > # this means to ignore newlines until "baseurl:"
+  Freelance web designer and developer, specialising in Jekyll,
+  HTML, CSS and Javascript
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: stevensenegal
+github_username:  stevensenegal
+google_username: stevensenegal
+
+permalink: /:categories/:title
+
+Links:
+  - title: about
+    url: /about
+  - title: work
+    url: /work
+  - title: articles
+    url: /articles
+  - title: me
+    url: /hire-me
+
+# Build settings
+markdown: kramdown
