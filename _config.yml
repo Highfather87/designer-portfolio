@@ -12,15 +12,17 @@ google_username: markmushiva
 
 permalink: /:categories/:title
 
-Links:
+#Links array we create to hold our link values
+links:
   - title: about
     url: /about
   - title: work
     url: /work
   - title: articles
     url: /articles
-  - title: me
+  - title: hire me
     url: /hire-me
+
 
 # Build settings
 markdown: kramdown
