@@ -3,6 +3,7 @@ layout: post
 title:  "Mihi"
 date:   2015-09-02 09:48:01
 categories: jekyll update
+featured: true
 ---
 ## Parvas veniet ipsi singultibus illi honores patiemur
 
