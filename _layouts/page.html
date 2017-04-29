@@ -1,14 +1,22 @@
 ---
 layout: default
 ---
-<div class="post">
+<article class="site-section site-section-last">
+	<header class="post-header">
+	<h1 class="post-title">{{ page.title }}</h1>
+	<p class="post-meta">
+		posted on {{page.date | date: "%b %-d, %Y"}} <!-- date formats look up https://docs.shopify.com/themes/liquid-documentation/filters/additional-filters#date-->
+	</p>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+	{%if page.featured_image %}
+	<div class="post-image">
+	 	<img src="{{page.featured_image}}" alt="featured image">
+	</div>
+	{% endif %}	
+	</header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+	<div class="post-body">
+		{{content}}
+	</div>
+</article>	
 
-</div>
