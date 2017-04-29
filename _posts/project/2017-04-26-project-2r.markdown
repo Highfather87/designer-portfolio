@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Non qua fata medicamina Hectora vidisti sedilia"
+title:  "Project 1"
 date:   2015-10-02 09:48:01
 categories: project
 featured: true
+featured_image: "images/project.png"
 tags: code inspiration
 ---
 

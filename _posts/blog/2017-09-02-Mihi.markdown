@@ -4,6 +4,7 @@ title:  "Mihi"
 date:   2015-09-02 09:48:01
 categories: blog
 featured: true
+tags: code
 ---
 ## Parvas veniet ipsi singultibus illi honores patiemur
 
